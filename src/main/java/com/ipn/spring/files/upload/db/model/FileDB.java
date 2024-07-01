@@ -1,4 +1,4 @@
-package com.bezkoder.spring.files.upload.db.model;
+package com.ipn.spring.files.upload.db.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

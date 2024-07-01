@@ -1,4 +1,4 @@
-package com.bezkoder.spring.files.upload.db.message;
+package com.ipn.spring.files.upload.db.message;
 
 public class ResponseFile {
   private String name;

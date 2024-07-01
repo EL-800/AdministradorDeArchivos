@@ -1,4 +1,4 @@
-package com.bezkoder.spring.files.upload.db.service;
+package com.ipn.spring.files.upload.db.service;
 
 import java.io.IOException;
 import java.util.stream.Stream;
@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.bezkoder.spring.files.upload.db.model.FileDB;
-import com.bezkoder.spring.files.upload.db.repository.FileDBRepository;
+import com.ipn.spring.files.upload.db.model.FileDB;
+import com.ipn.spring.files.upload.db.repository.FileDBRepository;
 
 @Service
 public class FileStorageService {

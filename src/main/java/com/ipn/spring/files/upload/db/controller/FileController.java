@@ -1,4 +1,4 @@
-package com.bezkoder.spring.files.upload.db.controller;
+package com.ipn.spring.files.upload.db.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.bezkoder.spring.files.upload.db.service.FileStorageService;
-import com.bezkoder.spring.files.upload.db.message.ResponseFile;
-import com.bezkoder.spring.files.upload.db.message.ResponseMessage;
-import com.bezkoder.spring.files.upload.db.model.FileDB;
+import com.ipn.spring.files.upload.db.service.FileStorageService;
+import com.ipn.spring.files.upload.db.message.ResponseFile;
+import com.ipn.spring.files.upload.db.message.ResponseMessage;
+import com.ipn.spring.files.upload.db.model.FileDB;
 
 @Controller
 @CrossOrigin("http://localhost:8081")
